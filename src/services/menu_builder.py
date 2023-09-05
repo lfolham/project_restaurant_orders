@@ -37,9 +37,6 @@ class MenuBuilder:
                 if restriction not in dish.get_restrictions()
             ]
 
-            print("filtered_menu", filtered_menu)
-            return filtered_menu
-
         main_menu = []
         for dish in filtered_menu:
             dish_data = {
